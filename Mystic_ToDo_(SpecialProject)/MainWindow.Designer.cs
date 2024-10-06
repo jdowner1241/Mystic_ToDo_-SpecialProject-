@@ -28,18 +28,30 @@
         /// </summary>
         private void InitializeComponent()
         {
+            menubar1 = new CustomControls.Menubar();
             SuspendLayout();
+            // 
+            // menubar1
+            // 
+            menubar1.Location = new Point(-2, 1);
+            menubar1.Name = "menubar1";
+            menubar1.Size = new Size(1333, 154);
+            menubar1.TabIndex = 0;
             // 
             // MainWindow
             // 
-            AutoScaleDimensions = new SizeF(10F, 25F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1898, 1024);
+            ClientSize = new Size(1329, 614);
+            Controls.Add(menubar1);
+            Margin = new Padding(2);
             Name = "MainWindow";
             Text = "Mystic ToDo";
             ResumeLayout(false);
         }
 
         #endregion
+
+        private CustomControls.Menubar menubar1;
     }
 }

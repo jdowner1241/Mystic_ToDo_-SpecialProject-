@@ -16,5 +16,10 @@ namespace Mystic_ToDo__SpecialProject_.CustomControls
         {
             InitializeComponent();
         }
+
+        private void button_Menu1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

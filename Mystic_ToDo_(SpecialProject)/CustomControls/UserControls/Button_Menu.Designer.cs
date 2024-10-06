@@ -1,0 +1,65 @@
+﻿using Mystic_ToDo__SpecialProject_.CustomControls.ModificationClasses;
+
+namespace Mystic_ToDo__SpecialProject_.CustomControls.UserControls
+{
+    partial class Button_Menu
+    {
+        /// <summary> 
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary> 
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Component Designer generated code
+
+        /// <summary> 
+        /// Required method for Designer support - do not modify 
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            button1 = new RoundedButton();
+            SuspendLayout();
+            // 
+            // button1
+            // 
+            button1.Anchor = AnchorStyles.Top;
+            button1.BackgroundImageLayout = ImageLayout.Center;
+            button1.Location = new Point(48, 38);
+            button1.Name = "button1";
+            button1.Size = new Size(124, 57);
+            button1.TabIndex = 0;
+            button1.Text = "{Placeholder}";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
+            // 
+            // Button_Menu
+            // 
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.Transparent;
+            BackgroundImageLayout = ImageLayout.None;
+            Controls.Add(button1);
+            Name = "Button_Menu";
+            Size = new Size(201, 129);
+            Load += Button_Menu_Load;
+            ResumeLayout(false);
+        }
+
+        #endregion
+
+        private Button button1;
+    }
+}
