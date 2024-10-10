@@ -29,20 +29,29 @@
         private void InitializeComponent()
         {
             menubar1 = new CustomControls.Menubar();
+            reminderList1 = new CustomControls.ReminderList();
             SuspendLayout();
             // 
             // menubar1
             // 
-            menubar1.Location = new Point(-2, 1);
+            menubar1.Location = new Point(-3, -5);
             menubar1.Name = "menubar1";
             menubar1.Size = new Size(1333, 154);
             menubar1.TabIndex = 0;
+            // 
+            // reminderList1
+            // 
+            reminderList1.Location = new Point(-3, 123);
+            reminderList1.Name = "reminderList1";
+            reminderList1.Size = new Size(910, 405);
+            reminderList1.TabIndex = 1;
             // 
             // MainWindow
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1329, 614);
+            Controls.Add(reminderList1);
             Controls.Add(menubar1);
             Margin = new Padding(2);
             Name = "MainWindow";
@@ -53,5 +62,6 @@
         #endregion
 
         private CustomControls.Menubar menubar1;
+        private CustomControls.ReminderList reminderList1;
     }
 }

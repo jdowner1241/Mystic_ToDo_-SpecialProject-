@@ -1,6 +1,6 @@
-﻿namespace Mystic_ToDo__SpecialProject_.CustomControls
+﻿namespace Mystic_ToDo__SpecialProject_.CustomControls.Reminder.Compoinents
 {
-    partial class Editor
+    partial class List
     {
         /// <summary> 
         /// Required designer variable.

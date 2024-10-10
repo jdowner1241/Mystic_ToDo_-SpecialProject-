@@ -11,4 +11,10 @@
 	<ForceDesignerDpiUnaware>true</ForceDesignerDpiUnaware>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="CustomControls\Calender\" />
+    <Folder Include="CustomControls\TimeTracker\" />
+    <Folder Include="CustomControls\TimeTable\" />
+  </ItemGroup>
+
 </Project>
